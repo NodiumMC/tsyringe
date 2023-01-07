@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ESNext",
+    "outDir": "../dist/esm",
+    "lib": [
+      "es6",
+    ],
+    "downlevelIteration": true
+  },
+}
